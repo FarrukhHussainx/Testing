@@ -12,8 +12,10 @@ describe("empty spec", () => {
     cy.get("#btn").click();
   });
   it("passes", () => {
-    cy.get("#fname").type("xxx");
-    cy.get("#lname").type("xxx");
+    cy.get("#fname").type("Muhammad");
+    cy.get("#lname").type("Sawaid");
+    cy.get("#Male").click();
+    cy.get("#vehicle1").click();
     cy.get("#btn").click();
   });
 });
