@@ -1,0 +1,22 @@
+{
+  "name": "cypresstests",
+  "version": "1.0.0",
+  "description": "project practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarrukhHussainx/Testing.git"
+  },
+  "author": "Farrukh Hussain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarrukhHussainx/Testing/issues"
+  },
+  "homepage": "https://github.com/FarrukhHussainx/Testing#readme",
+  "dependencies": {
+    "cypress": "^10.3.0"
+  }
+}
